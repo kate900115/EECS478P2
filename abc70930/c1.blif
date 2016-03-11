@@ -1,0 +1,21 @@
+.model c1.blif
+
+.inputs a b c
+
+.outputs j
+
+.names a b f
+01 1
+10 1
+
+.names a b i
+11 1
+
+.names c f h
+11 1
+
+.names h i j
+-1 1
+1- 1
+
+.end

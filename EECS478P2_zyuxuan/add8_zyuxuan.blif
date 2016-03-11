@@ -1,0 +1,193 @@
+.model adder8
+
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5] b[6] b[7] cin 
+
+.outputs cout s[0] s[1] s[2] s[3] s[4] s[5] s[6] s[7] 
+
+.names sg[7] sf[7] cout
+-1 1
+1- 1
+
+.names a[0] b[0] cin s[0]
+001 1
+010 1
+100 1
+111 1
+
+.names a[1] b[1] sc[0] s[1]
+001 1
+010 1
+100 1
+111 1
+
+.names a[2] b[2] sc[1] s[2]
+001 1
+010 1
+100 1
+111 1
+
+.names a[3] b[3] sc[2] s[3]
+001 1
+010 1
+100 1
+111 1
+
+.names a[4] b[4] sc[3] s[4]
+001 1
+010 1
+100 1
+111 1
+
+.names a[5] b[5] sc[4] s[5]
+001 1
+010 1
+100 1
+111 1
+
+.names a[6] b[6] sc[5] s[6]
+001 1
+010 1
+100 1
+111 1
+
+.names a[7] b[7] sc[6] s[7]
+001 1
+010 1
+100 1
+111 1
+
+.names sg[0] sf[0] sc[0]
+-1 1
+1- 1
+
+.names sg[1] sf[1] sc[1]
+-1 1
+1- 1
+
+.names sg[2] sf[2] sc[2]
+-1 1
+1- 1
+
+.names sg[3] sf[3] sc[3]
+-1 1
+1- 1
+
+.names sg[4] sf[4] sc[4]
+-1 1
+1- 1
+
+.names sg[5] sf[5] sc[5]
+-1 1
+1- 1
+
+.names sg[6] sf[6] sc[6]
+-1 1
+1- 1
+
+.names sc[7]
+
+.names a[0] b[0] sd[0]
+11 1
+
+.names a[1] b[1] sd[1]
+11 1
+
+.names a[2] b[2] sd[2]
+11 1
+
+.names a[3] b[3] sd[3]
+11 1
+
+.names a[4] b[4] sd[4]
+11 1
+
+.names a[5] b[5] sd[5]
+11 1
+
+.names a[6] b[6] sd[6]
+11 1
+
+.names a[7] b[7] sd[7]
+11 1
+
+.names a[0] cin se[0]
+11 1
+
+.names a[1] sc[0] se[1]
+11 1
+
+.names a[2] sc[1] se[2]
+11 1
+
+.names a[3] sc[2] se[3]
+11 1
+
+.names a[4] sc[3] se[4]
+11 1
+
+.names a[5] sc[4] se[5]
+11 1
+
+.names a[6] sc[5] se[6]
+11 1
+
+.names a[7] sc[6] se[7]
+11 1
+
+.names b[0] cin sf[0]
+11 1
+
+.names b[1] sc[0] sf[1]
+11 1
+
+.names b[2] sc[1] sf[2]
+11 1
+
+.names b[3] sc[2] sf[3]
+11 1
+
+.names b[4] sc[3] sf[4]
+11 1
+
+.names b[5] sc[4] sf[5]
+11 1
+
+.names b[6] sc[5] sf[6]
+11 1
+
+.names b[7] sc[6] sf[7]
+11 1
+
+.names sd[0] se[0] sg[0]
+-1 1
+1- 1
+
+.names sd[1] se[1] sg[1]
+-1 1
+1- 1
+
+.names sd[2] se[2] sg[2]
+-1 1
+1- 1
+
+.names sd[3] se[3] sg[3]
+-1 1
+1- 1
+
+.names sd[4] se[4] sg[4]
+-1 1
+1- 1
+
+.names sd[5] se[5] sg[5]
+-1 1
+1- 1
+
+.names sd[6] se[6] sg[6]
+-1 1
+1- 1
+
+.names sd[7] se[7] sg[7]
+-1 1
+1- 1
+
+.end

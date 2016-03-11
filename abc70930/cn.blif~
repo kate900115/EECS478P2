@@ -1,0 +1,26 @@
+.model cn.blif
+
+.inputs a b c d e f 
+
+.outputs z1 z2
+
+.names b c d g
+0-- 1
+-0- 1
+--0 1
+
+.names d e h
+0- 1
+-0 1
+
+.names a b c z1
+0-- 1
+-0- 1
+--0 1
+
+.names f g h z2
+0-- 1
+-0- 1
+--0 1
+
+.end

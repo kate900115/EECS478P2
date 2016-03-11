@@ -1,0 +1,730 @@
+.model subtractor
+
+.inputs a[0] a[10] a[11] a[12] a[13] a[14] a[15] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] b[0] b[10] b[11] b[12] b[13] b[14] b[15] b[1] b[2] b[3] b[4] b[5] b[6] b[7] b[8] b[9] 
+
+.outputs s[0] s[10] s[11] s[12] s[13] s[14] s[15] s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8] s[9] 
+
+.names aINVinput2G[15] aINVinput2P*cin[15] Couta+b
+-1 1
+1- 1
+
+.names b[0] INVinput2[0]
+0 1
+
+.names b[10] INVinput2[10]
+0 1
+
+.names b[11] INVinput2[11]
+0 1
+
+.names b[12] INVinput2[12]
+0 1
+
+.names b[13] INVinput2[13]
+0 1
+
+.names b[14] INVinput2[14]
+0 1
+
+.names b[15] INVinput2[15]
+0 1
+
+.names b[1] INVinput2[1]
+0 1
+
+.names b[2] INVinput2[2]
+0 1
+
+.names b[3] INVinput2[3]
+0 1
+
+.names b[4] INVinput2[4]
+0 1
+
+.names b[5] INVinput2[5]
+0 1
+
+.names b[6] INVinput2[6]
+0 1
+
+.names b[7] INVinput2[7]
+0 1
+
+.names b[8] INVinput2[8]
+0 1
+
+.names b[9] INVinput2[9]
+0 1
+
+.names a[0] INVinput2[0] ZERO Ioutput[0]
+111 1
+010 1
+001 1
+100 1
+
+.names a[10] INVinput2[10] aINVinput2cin[10] Ioutput[10]
+111 1
+010 1
+001 1
+100 1
+
+.names a[11] INVinput2[11] aINVinput2cin[11] Ioutput[11]
+111 1
+010 1
+001 1
+100 1
+
+.names a[12] INVinput2[12] aINVinput2cin[12] Ioutput[12]
+111 1
+010 1
+001 1
+100 1
+
+.names a[13] INVinput2[13] aINVinput2cin[13] Ioutput[13]
+111 1
+010 1
+001 1
+100 1
+
+.names a[14] INVinput2[14] aINVinput2cin[14] Ioutput[14]
+111 1
+010 1
+001 1
+100 1
+
+.names a[15] INVinput2[15] aINVinput2cin[15] Ioutput[15]
+111 1
+010 1
+001 1
+100 1
+
+.names a[1] INVinput2[1] aINVinput2cin[1] Ioutput[1]
+111 1
+010 1
+001 1
+100 1
+
+.names a[2] INVinput2[2] aINVinput2cin[2] Ioutput[2]
+111 1
+010 1
+001 1
+100 1
+
+.names a[3] INVinput2[3] aINVinput2cin[3] Ioutput[3]
+111 1
+010 1
+001 1
+100 1
+
+.names a[4] INVinput2[4] aINVinput2cin[4] Ioutput[4]
+111 1
+010 1
+001 1
+100 1
+
+.names a[5] INVinput2[5] aINVinput2cin[5] Ioutput[5]
+111 1
+010 1
+001 1
+100 1
+
+.names a[6] INVinput2[6] aINVinput2cin[6] Ioutput[6]
+111 1
+010 1
+001 1
+100 1
+
+.names a[7] INVinput2[7] aINVinput2cin[7] Ioutput[7]
+111 1
+010 1
+001 1
+100 1
+
+.names a[8] INVinput2[8] aINVinput2cin[8] Ioutput[8]
+111 1
+010 1
+001 1
+100 1
+
+.names a[9] INVinput2[9] aINVinput2cin[9] Ioutput[9]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[0] one[0] IoutputoneG[0]
+11 1
+
+.names Ioutput[10] one[10] IoutputoneG[10]
+11 1
+
+.names Ioutput[11] one[11] IoutputoneG[11]
+11 1
+
+.names Ioutput[12] one[12] IoutputoneG[12]
+11 1
+
+.names Ioutput[13] one[13] IoutputoneG[13]
+11 1
+
+.names Ioutput[14] one[14] IoutputoneG[14]
+11 1
+
+.names Ioutput[15] one[15] IoutputoneG[15]
+11 1
+
+.names Ioutput[1] one[1] IoutputoneG[1]
+11 1
+
+.names Ioutput[2] one[2] IoutputoneG[2]
+11 1
+
+.names Ioutput[3] one[3] IoutputoneG[3]
+11 1
+
+.names Ioutput[4] one[4] IoutputoneG[4]
+11 1
+
+.names Ioutput[5] one[5] IoutputoneG[5]
+11 1
+
+.names Ioutput[6] one[6] IoutputoneG[6]
+11 1
+
+.names Ioutput[7] one[7] IoutputoneG[7]
+11 1
+
+.names Ioutput[8] one[8] IoutputoneG[8]
+11 1
+
+.names Ioutput[9] one[9] IoutputoneG[9]
+11 1
+
+.names IoutputoneP[0] ZERO IoutputoneP*cin[0]
+11 1
+
+.names IoutputoneP[10] Ioutputonecin[10] IoutputoneP*cin[10]
+11 1
+
+.names IoutputoneP[11] Ioutputonecin[11] IoutputoneP*cin[11]
+11 1
+
+.names IoutputoneP[12] Ioutputonecin[12] IoutputoneP*cin[12]
+11 1
+
+.names IoutputoneP[13] Ioutputonecin[13] IoutputoneP*cin[13]
+11 1
+
+.names IoutputoneP[14] Ioutputonecin[14] IoutputoneP*cin[14]
+11 1
+
+.names IoutputoneP[15] Ioutputonecin[15] IoutputoneP*cin[15]
+11 1
+
+.names IoutputoneP[1] Ioutputonecin[1] IoutputoneP*cin[1]
+11 1
+
+.names IoutputoneP[2] Ioutputonecin[2] IoutputoneP*cin[2]
+11 1
+
+.names IoutputoneP[3] Ioutputonecin[3] IoutputoneP*cin[3]
+11 1
+
+.names IoutputoneP[4] Ioutputonecin[4] IoutputoneP*cin[4]
+11 1
+
+.names IoutputoneP[5] Ioutputonecin[5] IoutputoneP*cin[5]
+11 1
+
+.names IoutputoneP[6] Ioutputonecin[6] IoutputoneP*cin[6]
+11 1
+
+.names IoutputoneP[7] Ioutputonecin[7] IoutputoneP*cin[7]
+11 1
+
+.names IoutputoneP[8] Ioutputonecin[8] IoutputoneP*cin[8]
+11 1
+
+.names IoutputoneP[9] Ioutputonecin[9] IoutputoneP*cin[9]
+11 1
+
+.names Ioutput[0] one[0] IoutputoneP[0]
+-1 1
+1- 1
+
+.names Ioutput[10] one[10] IoutputoneP[10]
+-1 1
+1- 1
+
+.names Ioutput[11] one[11] IoutputoneP[11]
+-1 1
+1- 1
+
+.names Ioutput[12] one[12] IoutputoneP[12]
+-1 1
+1- 1
+
+.names Ioutput[13] one[13] IoutputoneP[13]
+-1 1
+1- 1
+
+.names Ioutput[14] one[14] IoutputoneP[14]
+-1 1
+1- 1
+
+.names Ioutput[15] one[15] IoutputoneP[15]
+-1 1
+1- 1
+
+.names Ioutput[1] one[1] IoutputoneP[1]
+-1 1
+1- 1
+
+.names Ioutput[2] one[2] IoutputoneP[2]
+-1 1
+1- 1
+
+.names Ioutput[3] one[3] IoutputoneP[3]
+-1 1
+1- 1
+
+.names Ioutput[4] one[4] IoutputoneP[4]
+-1 1
+1- 1
+
+.names Ioutput[5] one[5] IoutputoneP[5]
+-1 1
+1- 1
+
+.names Ioutput[6] one[6] IoutputoneP[6]
+-1 1
+1- 1
+
+.names Ioutput[7] one[7] IoutputoneP[7]
+-1 1
+1- 1
+
+.names Ioutput[8] one[8] IoutputoneP[8]
+-1 1
+1- 1
+
+.names Ioutput[9] one[9] IoutputoneP[9]
+-1 1
+1- 1
+
+.names IoutputoneG[9] IoutputoneP*cin[9] Ioutputonecin[10]
+-1 1
+1- 1
+
+.names IoutputoneG[10] IoutputoneP*cin[10] Ioutputonecin[11]
+-1 1
+1- 1
+
+.names IoutputoneG[11] IoutputoneP*cin[11] Ioutputonecin[12]
+-1 1
+1- 1
+
+.names IoutputoneG[12] IoutputoneP*cin[12] Ioutputonecin[13]
+-1 1
+1- 1
+
+.names IoutputoneG[13] IoutputoneP*cin[13] Ioutputonecin[14]
+-1 1
+1- 1
+
+.names IoutputoneG[14] IoutputoneP*cin[14] Ioutputonecin[15]
+-1 1
+1- 1
+
+.names IoutputoneG[0] IoutputoneP*cin[0] Ioutputonecin[1]
+-1 1
+1- 1
+
+.names IoutputoneG[1] IoutputoneP*cin[1] Ioutputonecin[2]
+-1 1
+1- 1
+
+.names IoutputoneG[2] IoutputoneP*cin[2] Ioutputonecin[3]
+-1 1
+1- 1
+
+.names IoutputoneG[3] IoutputoneP*cin[3] Ioutputonecin[4]
+-1 1
+1- 1
+
+.names IoutputoneG[4] IoutputoneP*cin[4] Ioutputonecin[5]
+-1 1
+1- 1
+
+.names IoutputoneG[5] IoutputoneP*cin[5] Ioutputonecin[6]
+-1 1
+1- 1
+
+.names IoutputoneG[6] IoutputoneP*cin[6] Ioutputonecin[7]
+-1 1
+1- 1
+
+.names IoutputoneG[7] IoutputoneP*cin[7] Ioutputonecin[8]
+-1 1
+1- 1
+
+.names IoutputoneG[8] IoutputoneP*cin[8] Ioutputonecin[9]
+-1 1
+1- 1
+
+.names ZERO
+
+.names a[0] INVinput2[0] aINVinput2G[0]
+11 1
+
+.names a[10] INVinput2[10] aINVinput2G[10]
+11 1
+
+.names a[11] INVinput2[11] aINVinput2G[11]
+11 1
+
+.names a[12] INVinput2[12] aINVinput2G[12]
+11 1
+
+.names a[13] INVinput2[13] aINVinput2G[13]
+11 1
+
+.names a[14] INVinput2[14] aINVinput2G[14]
+11 1
+
+.names a[15] INVinput2[15] aINVinput2G[15]
+11 1
+
+.names a[1] INVinput2[1] aINVinput2G[1]
+11 1
+
+.names a[2] INVinput2[2] aINVinput2G[2]
+11 1
+
+.names a[3] INVinput2[3] aINVinput2G[3]
+11 1
+
+.names a[4] INVinput2[4] aINVinput2G[4]
+11 1
+
+.names a[5] INVinput2[5] aINVinput2G[5]
+11 1
+
+.names a[6] INVinput2[6] aINVinput2G[6]
+11 1
+
+.names a[7] INVinput2[7] aINVinput2G[7]
+11 1
+
+.names a[8] INVinput2[8] aINVinput2G[8]
+11 1
+
+.names a[9] INVinput2[9] aINVinput2G[9]
+11 1
+
+.names aINVinput2P[0] ZERO aINVinput2P*cin[0]
+11 1
+
+.names aINVinput2P[10] aINVinput2cin[10] aINVinput2P*cin[10]
+11 1
+
+.names aINVinput2P[11] aINVinput2cin[11] aINVinput2P*cin[11]
+11 1
+
+.names aINVinput2P[12] aINVinput2cin[12] aINVinput2P*cin[12]
+11 1
+
+.names aINVinput2P[13] aINVinput2cin[13] aINVinput2P*cin[13]
+11 1
+
+.names aINVinput2P[14] aINVinput2cin[14] aINVinput2P*cin[14]
+11 1
+
+.names aINVinput2P[15] aINVinput2cin[15] aINVinput2P*cin[15]
+11 1
+
+.names aINVinput2P[1] aINVinput2cin[1] aINVinput2P*cin[1]
+11 1
+
+.names aINVinput2P[2] aINVinput2cin[2] aINVinput2P*cin[2]
+11 1
+
+.names aINVinput2P[3] aINVinput2cin[3] aINVinput2P*cin[3]
+11 1
+
+.names aINVinput2P[4] aINVinput2cin[4] aINVinput2P*cin[4]
+11 1
+
+.names aINVinput2P[5] aINVinput2cin[5] aINVinput2P*cin[5]
+11 1
+
+.names aINVinput2P[6] aINVinput2cin[6] aINVinput2P*cin[6]
+11 1
+
+.names aINVinput2P[7] aINVinput2cin[7] aINVinput2P*cin[7]
+11 1
+
+.names aINVinput2P[8] aINVinput2cin[8] aINVinput2P*cin[8]
+11 1
+
+.names aINVinput2P[9] aINVinput2cin[9] aINVinput2P*cin[9]
+11 1
+
+.names a[0] INVinput2[0] aINVinput2P[0]
+-1 1
+1- 1
+
+.names a[10] INVinput2[10] aINVinput2P[10]
+-1 1
+1- 1
+
+.names a[11] INVinput2[11] aINVinput2P[11]
+-1 1
+1- 1
+
+.names a[12] INVinput2[12] aINVinput2P[12]
+-1 1
+1- 1
+
+.names a[13] INVinput2[13] aINVinput2P[13]
+-1 1
+1- 1
+
+.names a[14] INVinput2[14] aINVinput2P[14]
+-1 1
+1- 1
+
+.names a[15] INVinput2[15] aINVinput2P[15]
+-1 1
+1- 1
+
+.names a[1] INVinput2[1] aINVinput2P[1]
+-1 1
+1- 1
+
+.names a[2] INVinput2[2] aINVinput2P[2]
+-1 1
+1- 1
+
+.names a[3] INVinput2[3] aINVinput2P[3]
+-1 1
+1- 1
+
+.names a[4] INVinput2[4] aINVinput2P[4]
+-1 1
+1- 1
+
+.names a[5] INVinput2[5] aINVinput2P[5]
+-1 1
+1- 1
+
+.names a[6] INVinput2[6] aINVinput2P[6]
+-1 1
+1- 1
+
+.names a[7] INVinput2[7] aINVinput2P[7]
+-1 1
+1- 1
+
+.names a[8] INVinput2[8] aINVinput2P[8]
+-1 1
+1- 1
+
+.names a[9] INVinput2[9] aINVinput2P[9]
+-1 1
+1- 1
+
+.names aINVinput2G[9] aINVinput2P*cin[9] aINVinput2cin[10]
+-1 1
+1- 1
+
+.names aINVinput2G[10] aINVinput2P*cin[10] aINVinput2cin[11]
+-1 1
+1- 1
+
+.names aINVinput2G[11] aINVinput2P*cin[11] aINVinput2cin[12]
+-1 1
+1- 1
+
+.names aINVinput2G[12] aINVinput2P*cin[12] aINVinput2cin[13]
+-1 1
+1- 1
+
+.names aINVinput2G[13] aINVinput2P*cin[13] aINVinput2cin[14]
+-1 1
+1- 1
+
+.names aINVinput2G[14] aINVinput2P*cin[14] aINVinput2cin[15]
+-1 1
+1- 1
+
+.names aINVinput2G[0] aINVinput2P*cin[0] aINVinput2cin[1]
+-1 1
+1- 1
+
+.names aINVinput2G[1] aINVinput2P*cin[1] aINVinput2cin[2]
+-1 1
+1- 1
+
+.names aINVinput2G[2] aINVinput2P*cin[2] aINVinput2cin[3]
+-1 1
+1- 1
+
+.names aINVinput2G[3] aINVinput2P*cin[3] aINVinput2cin[4]
+-1 1
+1- 1
+
+.names aINVinput2G[4] aINVinput2P*cin[4] aINVinput2cin[5]
+-1 1
+1- 1
+
+.names aINVinput2G[5] aINVinput2P*cin[5] aINVinput2cin[6]
+-1 1
+1- 1
+
+.names aINVinput2G[6] aINVinput2P*cin[6] aINVinput2cin[7]
+-1 1
+1- 1
+
+.names aINVinput2G[7] aINVinput2P*cin[7] aINVinput2cin[8]
+-1 1
+1- 1
+
+.names aINVinput2G[8] aINVinput2P*cin[8] aINVinput2cin[9]
+-1 1
+1- 1
+
+.names IoutputoneG[15] IoutputoneP*cin[15] cout
+-1 1
+1- 1
+
+.names one[0]
+1
+
+.names one[10]
+
+.names one[11]
+
+.names one[12]
+
+.names one[13]
+
+.names one[14]
+
+.names one[15]
+
+.names one[1]
+
+.names one[2]
+
+.names one[3]
+
+.names one[4]
+
+.names one[5]
+
+.names one[6]
+
+.names one[7]
+
+.names one[8]
+
+.names one[9]
+
+.names Ioutput[0] one[0] ZERO s[0]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[10] one[10] Ioutputonecin[10] s[10]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[11] one[11] Ioutputonecin[11] s[11]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[12] one[12] Ioutputonecin[12] s[12]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[13] one[13] Ioutputonecin[13] s[13]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[14] one[14] Ioutputonecin[14] s[14]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[15] one[15] Ioutputonecin[15] s[15]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[1] one[1] Ioutputonecin[1] s[1]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[2] one[2] Ioutputonecin[2] s[2]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[3] one[3] Ioutputonecin[3] s[3]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[4] one[4] Ioutputonecin[4] s[4]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[5] one[5] Ioutputonecin[5] s[5]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[6] one[6] Ioutputonecin[6] s[6]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[7] one[7] Ioutputonecin[7] s[7]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[8] one[8] Ioutputonecin[8] s[8]
+111 1
+010 1
+001 1
+100 1
+
+.names Ioutput[9] one[9] Ioutputonecin[9] s[9]
+111 1
+010 1
+001 1
+100 1
+
+.end
